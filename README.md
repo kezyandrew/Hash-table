@@ -8,7 +8,7 @@ A hash function takes a group of characters called a key and maps it to a value 
                 x= key % length of the hash table
                 x is the hash value
                 
-A data table then can be described as a data structure that basically maps keys to values
+A data table then can be described as a data structure that basically maps keys to values or indixes
 
 In the notebook we see that we start by creating an empty table in form of an array, this table has a length of 10 
 
@@ -16,7 +16,16 @@ In the notebook we see that we start by creating an empty table in form of an ar
  
  These hash values represent the string values that we want to insert into the table.
  
- We define a function to insert 
+ We define a function to insert data into the table as seen in the notebook.
+ 
+ Our table now maps keys to indixes in the table but what if a new we enter a value that has the same hash value and the index is 
+ already occupied in the table, we see that that value is replaced by the new value.
+ 
+ This problem is called collision and it can be solved by chaining
+ 
+ Chaining 
+ 
+ 
  
  
  
