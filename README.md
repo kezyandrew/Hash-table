@@ -1,8 +1,10 @@
 # Hash-table
  #Hashing data structure 
+ 
 Hashing data structure is the process of mapping a large amount of data to a smaller value using a hashing function and the    value is stored in a hash table.
 
 A hash function takes a group of characters called a key and maps it to a value of a certain length called a hash value it is usally got by the formular:
+
                 x= key % length of the hash table
                 x is the hash value
                 
@@ -12,7 +14,13 @@ In the notebook we see that we start by creating an empty table in form of an ar
 
  Then we formulate our hash function with the above formular and we see that when we put in some keys we generate hash values.
  
- These hash values
+ These hash values represent the string values that we want to insert into the table.
+ 
+ We define a function to insert 
+ 
+ 
+ 
+ 
  
  
 
