@@ -29,6 +29,8 @@ In the notebook we see that we start by creating an empty table in form of an ar
  
  When we look at the section of chaining in the notebook we see that we are solving collision of "Andrew" and "Kaweesa"
  
+ In conclusion hashing is a very efficient technique for password authentication and in database to enable retrieval of items more quicly. 
+ 
  
  
  
