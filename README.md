@@ -23,7 +23,12 @@ In the notebook we see that we start by creating an empty table in form of an ar
  
  This problem is called collision and it can be solved by chaining
  
- Chaining 
+ Chaining is a way of solving collision where each index of an array contains a link to a linked list containing key value pairs with the same hash value, it is a faster way to solve collision.
+ 
+ Though collision can also be solved by linear probing using binary search through the table to look for a free index in the array to insert a key value with a similar hash value with that already existing in the table.
+ 
+ When we look at the section of chaining in the notebook we see that we are solving collision of "Andrew" and "Kaweesa"
+ 
  
  
  
