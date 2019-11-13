@@ -1,7 +1,7 @@
 # Hash-table
- Hashing data structure 
-Hashing data structure is the process of mapping a large amount of data to a smaller value using a hashing function and the    value is stored in a hash table.
-A hash function takes a group of characters called a key and maps it to a value of a certain length called a hash value it is usally got by the formular:
+ #Hashing data structure 
+#Hashing data structure is the process of mapping a large amount of data to a smaller value using a hashing function and the    #value is stored in a hash table.
+#A hash function takes a group of characters called a key and maps it to a value of a certain length called a hash value it is usally got by the formular:
                 x= key % length of the hash table
                 x is the hash value
 A data table then can be described as a data structure that basically maps keys to values
